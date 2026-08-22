@@ -316,6 +316,10 @@ body {
   align-items: center;
 }
 
+.glossary-section .reading-item + .reading-item {
+  margin-top: 3px;
+}
+
 .glossary-bullet {
   flex-shrink: 0;
   font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
