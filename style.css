@@ -369,6 +369,51 @@ body {
   margin-left: 380px;
 }
 
+.project-list {
+  margin-top: 40px;
+}
+
+.project-item {
+  max-width: 640px;
+}
+
+.project-item + .project-item {
+  margin-top: 40px;
+}
+
+.project-title {
+  display: block;
+  font-family: "Instrument Serif", Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 28.9px;
+  font-weight: 400;
+  color: rgb(26, 26, 26);
+  margin: 0 0 16px;
+}
+
+.project-status {
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  margin-left: 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.project-item .reading-body {
+  margin-top: 0;
+}
+
+.project-item .reading-body + .reading-body {
+  margin-top: 8px;
+}
+
+.project-item .reading-body em {
+  font-size: 12px;
+}
+
 .cover-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
