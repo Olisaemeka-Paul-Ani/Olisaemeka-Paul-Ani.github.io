@@ -364,6 +364,11 @@ body {
   margin-left: 380px;
 }
 
+.projects-content {
+  margin-top: 80px;
+  margin-left: 380px;
+}
+
 .cover-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -595,6 +600,7 @@ body {
   .now-section,
   .listening-content,
   .photos-content,
+  .projects-content,
   .social-links {
     margin-left: calc(clamp(16px, 4vw, 40px) + clamp(20px, 20vw, 340px));
   }
