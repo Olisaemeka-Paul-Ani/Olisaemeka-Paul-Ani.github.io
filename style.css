@@ -387,14 +387,14 @@ body {
   font-size: 28.9px;
   font-weight: 400;
   color: rgb(26, 26, 26);
-  margin: 0 0 16px;
+  margin: 0 0 4px;
 }
 
 .project-status {
-  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 13px;
-  font-weight: 400;
-  color: rgb(70, 70, 70);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(26, 26, 26);
   margin-left: 10px;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
@@ -411,7 +411,8 @@ body {
 }
 
 .project-item .reading-body em {
-  font-size: 12px;
+  font-size: 14px;
+  color: rgb(50, 50, 50);
 }
 
 .cover-grid {
