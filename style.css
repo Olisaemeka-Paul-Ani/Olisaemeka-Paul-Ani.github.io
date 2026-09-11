@@ -423,6 +423,18 @@ body {
   margin-top: 32px;
 }
 
+@media (max-width: 900px) {
+  .cover-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 650px) {
+  .cover-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 400px) {
+  .cover-grid { grid-template-columns: repeat(1, 1fr); }
+}
+
 .cover-item {
   min-width: 0;
 }
@@ -651,7 +663,8 @@ body {
     margin-left: calc(clamp(16px, 4vw, 40px) + clamp(20px, 20vw, 340px));
   }
 
-  .photos-content {
+  .photos-content,
+  .listening-content {
     margin-right: 20px;
   }
 }
