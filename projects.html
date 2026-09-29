@@ -36,7 +36,7 @@
     <div class="project-item">
       <h2 class="project-title">AstraFetch <a href="https://github.com/Olisaemeka-Paul-Ani/astrafetch" target="_blank" rel="noopener noreferrer" class="project-status glimmer-link">(Repo)</a></h2>
       <p class="reading-body"><em>C++ &middot; cpr &middot; vcpkg &middot; nlohmann::json &middot; Dear ImGui &middot; Catch2</em></p>
-      <p class="reading-body">A concurrent, segmented HTTP download manager in C++. Downloads run across a fixed pool of three worker threads pulling from a shared, condition-variable-driven queue, so adding more downloads than that queues the rest rather than spawning threads without bound. One file can be split into concurrent Range-request segments and reassembled, with cooperative pause, resume-from-offset, and cancel that leaves no orphaned temp files. Download history persists to disk as JSON across restarts, driven by a console interface (add/list/pause/resume/cancel), with a Dear ImGui window layered on top exposing the same actions through add/pause/cancel buttons &mdash; reading the manager's state each frame without ever touching it directly.</p>
+      <p class="reading-body">A concurrent, segmented HTTP download manager in C++. Runs downloads across a fixed pool of three worker threads pulling from a shared queue, splits a file into concurrent Range-request segments for faster transfers, and supports cooperative pause/resume/cancel with no orphaned temp files. History persists to disk as JSON across restarts, driven by a console interface with a Dear ImGui window layered on top for live, interactive control.</p>
     </div>
 
     <div class="project-item">
