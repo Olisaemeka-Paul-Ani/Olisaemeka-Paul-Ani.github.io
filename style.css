@@ -313,7 +313,11 @@ body {
 }
 
 .glossary-section .reading-item {
-  align-items: center;
+  align-items: baseline;
+}
+
+.reading-item {
+  align-items: baseline;
 }
 
 .glossary-section .reading-item + .reading-item {
@@ -326,8 +330,6 @@ body {
   font-size: 17px;
   line-height: 28.05px;
   color: rgb(50, 50, 50);
-  position: relative;
-  top: -2px;
 }
 
 .social-links {
