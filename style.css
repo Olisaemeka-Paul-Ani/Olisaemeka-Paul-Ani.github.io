@@ -670,3 +670,112 @@ body {
     margin-right: 20px;
   }
 }
+
+/* Mobile layout: only applies to small screens, desktop is unaffected */
+@media (max-width: 700px) {
+  .navbar {
+    grid-template-columns: 1fr;
+    row-gap: 14px;
+    padding: 24px 20px 0;
+  }
+
+  .badge {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 0;
+  }
+
+  .nav-links {
+    grid-column: 1;
+    grid-row: 2;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    height: auto;
+    line-height: 22px;
+  }
+
+  .separator {
+    height: 16px;
+  }
+
+  .divider {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 6px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .reading-content,
+  .home-content,
+  .now-section,
+  .listening-content,
+  .photos-content,
+  .projects-content,
+  .social-links {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .reading-content,
+  .home-content,
+  .listening-content,
+  .photos-content,
+  .projects-content {
+    margin-top: 48px;
+  }
+
+  .now-section {
+    margin-top: 48px;
+  }
+
+  .content-divider {
+    margin-left: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .reading-body,
+  .project-item {
+    max-width: none;
+  }
+
+  .sfu-inline {
+    display: inline;
+  }
+
+  .sfu-logo {
+    vertical-align: middle;
+    top: -2px;
+  }
+
+  .project-status {
+    display: inline-block;
+    margin-left: 6px;
+  }
+
+  .social-link {
+    display: inline-block;
+  }
+
+  .lightbox-image {
+    max-width: 92vw;
+  }
+
+  .lightbox-close {
+    top: 12px;
+    right: 12px;
+  }
+
+  .lightbox-prev {
+    left: 4px;
+  }
+
+  .lightbox-next {
+    right: 4px;
+  }
+}
